@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estructura del cuerpo (body)</title>
+    <!--Estilos Embebbidos-->
+    <Style>
+        li{color:blue;text-align: center;}
+    </Style>
+    <!--Referenciadno estilos con el atributo id-->
+    <link rel="stylesheet" href="css/MisEstilos.css">
 </head>
 <body>
     <header>
@@ -14,8 +20,8 @@
         <ul>
             <li>Principal</li>
             <li>Foto</li>
-            <li>Videos</li>
-            <li>Contactos</li>
+            <li id="texto1">Videos</li>
+            <li class="texto2">Contactos</li>
             <li><a href="pagina2.html">IrPagina2</a></li>
         </ul>
     </nav>
@@ -24,10 +30,10 @@
             <td>
                 <section>
                     <article>
-                        <h3>Este es el texto de mi primer mensaje</h3>
+                        <h3 id="texto1">Este es el texto de mi primer mensaje</h3>
                     </article>
                     <article>
-                        <h3>Este es el texto de mi segundo mensaje</h3>
+                        <p style="color: blue;text-align:center">Estilo en linea</h3>
                     </article>                    
                 </section>
             </td>
